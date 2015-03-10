@@ -18,8 +18,7 @@ function isDie() {
       console.error(appName + ' is died! start attempt.');
       _exec(start_sh,function(err,stdout,stderr){
         if(err){
-          console.error(err);
-          isDie();
+          console.error(err); //死透了?
         }
       });
     }
