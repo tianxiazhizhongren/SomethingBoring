@@ -12,8 +12,8 @@ function isDie() {
       return;
     }
 
-    console.log(appName + ' is living');
-    console.log('count==' + count);
+    console.log(appName + ' is living ' + count);
+    
     setTimeout(isDie, 6000);
   });
 
