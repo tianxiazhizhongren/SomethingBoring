@@ -5,8 +5,8 @@
  *
  */
 var _exec = require('child_process').exec;
-var command = 'node';
-var appName = '/home/www/express/bin/www';
+var command = 'node'; //命令
+var appName = '/home/www/express/bin/www'; //你的app路径
 var start_sh = command + ' ' + appName;
 var isDie_sh = 'ps -ef |grep "' + start_sh + '" |grep -v "grep"';
 var count = 0;
