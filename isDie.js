@@ -7,7 +7,6 @@ var count = 0;
 function isDie() {
   var child = child_process.exec(exec_SH, function(err, stdout, stderr) {
     count++;
-    console.log('stdout.length=' + stdout.length);
     if (err || !stdout || stderr) {
       console.log(appName + ' is died');
       return;
