@@ -1,2 +1,0 @@
-br is self closing and should not have content.
-unexpected token "indent"
